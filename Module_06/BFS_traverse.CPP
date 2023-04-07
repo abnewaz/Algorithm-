@@ -32,15 +32,14 @@ void bfs(int src)
       5 ----- 4
 list of adj nodes->
 6   6
-
+======
 0   1
 2   3
 1   5
 2   4
 5   4
 1   2
-output -> 0 1 5 4 2 3
-*/
+output -> 0 1 5 4 2 3    */
 int main()
 {
     int nodes, edges;
@@ -54,6 +53,5 @@ int main()
     }
     int src = 0;
     bfs(src);
-    return 0;
-    
+    return 0;    
 }
