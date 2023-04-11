@@ -1,10 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 const int N = 1e5;
-
 int visited[N];
 vector<int>adj_list[N];
-
 void bfs(int src)
 {
     queue <int> q;
